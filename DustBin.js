@@ -1,7 +1,7 @@
 class dustBin {
     constructor(x,y,width,height){
         this.sprite=createSprite(x,y,width,height);
-        this.image=loadImage("sprites/dust bin.png");
+        this.image=loadImage("dust bin.png");
         this.sprite.addImage("img",this.image);
         this.sprite.scale=0.5;
     }
